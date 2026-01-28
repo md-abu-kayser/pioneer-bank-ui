@@ -155,12 +155,11 @@ A fully responsive, modern banking web application built with HTML5, CSS3, Tailw
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
+- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Project:** _Pioneer-Bank-Modern-Banking-UI_
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _Pioneer-Bank-Modern-Banking-UI_
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
