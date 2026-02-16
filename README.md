@@ -1,4 +1,4 @@
-# Pioneer Bank - Modern Banking Web Application
+# Pioneer Bank - Modern Banking Web App (UI Prototype)
 
 A fully responsive, modern banking web application built with HTML5, CSS3, Tailwind CSS, DaisyUI, and Vanilla JavaScript. This application showcases a complete banking interface with authentication, transaction management, and multiple theme options.
 
