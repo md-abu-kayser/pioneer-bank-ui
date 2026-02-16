@@ -158,7 +158,7 @@ A fully responsive, modern banking web application built with HTML5, CSS3, Tailw
 ### Contact and Maintainer
 
 - **Name:** Md Abu Kayser
-- **Project:** _Pioneer Bank Modern Banking UI_
+- **Project:** _Pioneer Bank UI_
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
