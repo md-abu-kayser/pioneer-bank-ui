@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
@@ -142,7 +142,11 @@
                   src="https://cdni.iconscout.com/illustration/premium/thumb/online-banking-3443803-2928172.png"
                   alt="Pioneer Bank Logo"
                   class="w-full h-full object-contain animate-float"
-                  onerror="this.style.display='none'; document.getElementById('logo-placeholder').style.display='flex';"
+                  onerror="
+                    this.style.display = 'none';
+                    document.getElementById('logo-placeholder').style.display =
+                      'flex';
+                  "
                 />
                 <div id="logo-placeholder" class="logo-placeholder hidden">
                   <i class="fas fa-landmark text-4xl"></i>
@@ -925,10 +929,12 @@
               >
                 <i class="fas fa-landmark"></i>
               </div>
-              <span class="footer-title text-lg text-white">Pioneer Bank</span>
+              <span class="footer-title text-lg text-white"
+                >Pioneer Bank UI</span
+              >
             </div>
             <p class="max-w-xs">
-              Providing secure and innovative banking solutions since 1985. Your
+              Providing secure and innovative banking solutions since 1986. Your
               financial success is our priority.
             </p>
             <div class="flex gap-2 mt-4">
