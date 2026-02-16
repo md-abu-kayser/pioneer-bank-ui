@@ -1,5 +1,5 @@
-// JavaScript Code here:
-// ----------------------------------------------------------------------------->
+// JavaScript Start:
+// --------------------------------------------------------------->
 const state = {
   currentUser: null,
   balance: 1240,
@@ -55,7 +55,7 @@ const domElements = {
   signupEmailError: document.getElementById("signup-email-error"),
   signupPasswordError: document.getElementById("signup-password-error"),
   signupConfirmPasswordError: document.getElementById(
-    "signup-confirm-password-error"
+    "signup-confirm-password-error",
   ),
   signupTermsError: document.getElementById("signup-terms-error"),
 
@@ -109,8 +109,8 @@ const utils = {
           type === "success"
             ? "fa-check-circle text-success"
             : type === "error"
-            ? "fa-exclamation-circle text-error"
-            : "fa-info-circle text-info"
+              ? "fa-exclamation-circle text-error"
+              : "fa-info-circle text-info"
         } mr-2"></i>
         <span>${message}</span>
       </div>
@@ -322,14 +322,14 @@ const formValidation = {
 
     domElements.signupFirstname.classList.remove(
       "input-error",
-      "input-success"
+      "input-success",
     );
     domElements.signupLastname.classList.remove("input-error", "input-success");
     domElements.signupEmail.classList.remove("input-error", "input-success");
     domElements.signupPassword.classList.remove("input-error", "input-success");
     domElements.signupConfirmPassword.classList.remove(
       "input-error",
-      "input-success"
+      "input-success",
     );
   },
 };
@@ -438,7 +438,7 @@ const transactions = {
 
     utils.showToast(
       `Successfully deposited ${utils.formatCurrency(amount)}`,
-      "success"
+      "success",
     );
 
     return true;
@@ -486,7 +486,7 @@ const transactions = {
 
     utils.showToast(
       `Successfully withdrew ${utils.formatCurrency(amount)}`,
-      "success"
+      "success",
     );
 
     return true;
@@ -520,8 +520,8 @@ const ui = {
         <td>${transaction.date}</td>
         <td>${transaction.description}</td>
         <td class="${amountClass} font-semibold">${amountPrefix}${utils.formatCurrency(
-        transaction.amount
-      )}</td>
+          transaction.amount,
+        )}</td>
         <td><span class="badge badge-${
           transaction.status === "completed" ? "success" : "warning"
         }">${transaction.status}</span></td>
@@ -644,7 +644,7 @@ const ui = {
       },
       {
         threshold: 0.1,
-      }
+      },
     );
 
     sections.forEach((section) => {
@@ -707,7 +707,7 @@ const initEventListeners = () => {
       .catch((error) => {
         utils.showToast(
           "Login failed. Please check your credentials.",
-          "error"
+          "error",
         );
       })
       .finally(() => {
@@ -755,7 +755,7 @@ const initEventListeners = () => {
 
         utils.showToast(
           `Account created successfully! Welcome, ${user.firstName}!`,
-          "success"
+          "success",
         );
       })
       .catch((error) => {
@@ -855,7 +855,7 @@ const initEventListeners = () => {
         `${
           provider.charAt(0).toUpperCase() + provider.slice(1)
         } login would be implemented in a real application`,
-        "info"
+        "info",
       );
     });
   });
@@ -924,3 +924,4 @@ const initApp = () => {
 document.addEventListener("DOMContentLoaded", initApp);
 
 // JS End
+// -------------------------------------------------
